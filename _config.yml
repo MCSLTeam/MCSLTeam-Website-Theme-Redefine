@@ -25,6 +25,72 @@ product:
 # PRODUCT INFOMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
+# MEMBERS INFOMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
+members:
+  - name: 落雪无痕LxHTT
+    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3395314362&spec=640&img_type=jpg
+    role: 总开发 / 总设计 / 创始人
+
+  - name: 爱喝矿泉水
+    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=2247176795&spec=640&img_type=jpg
+    role: 副开发 / 创始人
+
+  - name: shenjack
+    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3695888&spec=640&img_type=jpg
+    role: 副开发
+
+  - name: 饼干
+    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3076823485&spec=640&img_type=jpg
+    role: 副开发 / 创始人
+
+  - name: kitUIN
+    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=1585447424&spec=640&img_type=jpg
+    role: 创新建设者 / 副开发
+
+  - name: 烟墨
+    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=2315049216&spec=640&img_type=jpg
+    role: 副开发 / 运维
+
+  - name: 括弧
+    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=183713750&spec=640&img_type=jpg
+    role: 前端开发者 / 运维
+
+  - name: Z_Tsin
+    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3372523&spec=640&img_type=jpg
+    role: 副开发 / 运维
+
+  - name: 星姮十织
+    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3192145045&spec=640&img_type=jpg
+    role: 创新开发者
+
+  - name: LoveChinaT
+    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3273789867&spec=640&img_type=jpg
+    role: 荣誉开发 / 创始人
+
+  - name: 雪球
+    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=2957202260&spec=640&img_type=jpg
+    role: 创新建设者
+
+  - name: 锅盖
+    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=2509043002&spec=640&img_type=jpg
+    role: 荣誉开发 / 创始人
+
+  - name: XieXiLin
+    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3068342155&spec=640&img_type=jpg
+    role: 专治各种格式不规范
+
+  - name: Yurnu
+    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=1487084645&spec=640&img_type=jpg
+    role: 创新建设者 / 开发者
+
+  - name: Tiger
+    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=1577438625&spec=640&img_type=jpg
+    role: 前端开发者
+
+
+# MEMBERS INFOMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
+
+
 # INTRO CONFIGURATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 intro:
   # Favicon
@@ -33,6 +99,7 @@ intro:
   logo: https://img.fastmirror.net/s/2023/10/29/653deb00353b8.png
   # Site avatar
   avatar: https://img.fastmirror.net/s/2023/10/29/653deb00353b8.png
+  
 # INTRO CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -488,9 +555,9 @@ page_templates:
 # Docs: https://redefine-docs.ohevan.com/cdn
 cdn:
   # Whether to enable CDN
-  enable: false
+  enable: true
   # CDN Provider
-  provider: aliyun # zstatic, sustech, staticfile, bootcdn, cdnjs, jsdelivr, unpkg, aliyun, custom
+  provider: staticfile # zstatic, sustech, staticfile, bootcdn, cdnjs, jsdelivr, unpkg, aliyun, custom
   # Custom CDN URL
   # format example: https://cdn.custom.com/hexo-theme-redefine/${version}/source/${path}
   # The ${path} must leads to the root of the "source" folder of the theme

@@ -2,4 +2,4 @@
 
 Fork of [hexo-theme-redefine](https://github.com/EvanNotFound/hexo-theme-redefine).
 
-For our team, we added product view, background from image bed.
+For our team, we added `product` `self-intro` view and background from image bed.

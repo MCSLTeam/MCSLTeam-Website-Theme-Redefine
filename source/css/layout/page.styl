@@ -94,6 +94,22 @@
       .main-content-footer
         width 100%
 
+    .home-self-intro
+      position relative
+      box-sizing border-box
+      width auto
+      margin-bottom $spacing-unit
+      height 100%
+      transition-t('max-width, width', '0, 0', '0.2, 0.2', 'ease, ease')
+
+      +redefine-tablet()
+        width $main-content-width-tablet
+
+      +redefine-mobile()
+        width $main-content-width-mobile
+
+
+
   .post-tools
     position fixed
     top: $navbar-height + $spacing-unit

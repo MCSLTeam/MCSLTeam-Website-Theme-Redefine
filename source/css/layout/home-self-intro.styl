@@ -1,0 +1,72 @@
+@import '../common/variables'
+
+.home-self-intro
+  position relative
+  box-shadow var(--redefine-box-shadow)
+  // border-radius $redefine-border-radius-large
+  backdrop-filter blur(10px)
+  -webkit-backdrop-filter blur(10px)
+  background-color var(--background-color-transparent-80) !important
+  padding-bottom 20px
+
+  .home-intro-title
+    font-size 30px
+    color var(--second-text-color)
+    padding-left 30px
+    padding-top 5px
+    color var(--second-text-color)
+    font-family $english-font-family, $chinese-font-family, 'Noto Sans SC', sans-serif
+
+  .home-intro-content
+    display flex
+    flex-direction column
+    padding-left 30px
+    padding-top 10px
+    padding-bottom 30px
+    justify-content center
+    color var(--third-text-color)
+    font-family $english-font-family, $chinese-font-family, 'Noto Sans SC', sans-serif
+
+  .members
+    padding-left 30px
+    padding-bottom 30px
+    display flex
+
+  .member
+    flex 0 0 auto
+    width 200px
+    height 200px
+    padding-right 25px
+    position relative
+
+  .member-image
+    width 170px
+    height 170px
+    overflow hidden
+    position relative
+    border-radius $redefine-border-radius-large
+
+  .member-image img
+    width 170px
+    height 170px
+    object-fit cover
+
+  .member-image::after
+    content ''
+    position absolute
+    top 70%
+    left 0
+    width 170px
+    height 50%
+    background linear-gradient(transparent, lighten($default-text-color, 50%))
+
+  .member-name
+    font-weight bold
+    padding-top 8px
+    text-align center
+    color var(--second-text-color)
+
+  .member-role
+    padding-top 5px
+    text-align center
+    color var(--second-text-color)

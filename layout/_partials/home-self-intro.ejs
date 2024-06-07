@@ -1,0 +1,20 @@
+<div class="home-self-intro">
+    <br>
+    <div class="home-intro-title">我们是谁？</div>
+    <div class="home-intro-content">
+        MCSL开发组 是一个非营利性、非商业性质的开发组织。<br>
+        从 2022/08/27 的夜晚直至今日，在 Coding 路上不断学习、不断前行的身影，时时映在我们这些学生身上。<br>
+        我们是一位位不畏难、不退缩、勇创新、敢作为的伙伴携手共成的团体。
+    </div>
+
+    <!--  成员一览 -->
+    <div class="members">
+        <% theme.members.forEach(function(member) { %>
+                <div class="member">
+                    <img class="member-image" src="<%= member.avatar %>" alt="<%= member.name %>">
+                    <div class="member-name"><%= member.name %></div>
+                    <div class="member-role"><%= member.role %></div>
+                </div>
+        <% }) %>
+    </div>
+</div>
