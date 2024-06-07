@@ -71,7 +71,7 @@
         <% if (title) { %>
             <%= title %> -
         <% } %>
-        <%= theme.info.title || config.title || 'Redefine Theme' %>
+        <%= theme.info.title + ' | ' + theme.info.subtitle + ' | ' + theme.info.seo || config.title || 'Redefine Theme' %>
     </title>
 
     <%- renderCSS('fonts/Chillax/chillax.css') %>
