@@ -18,8 +18,8 @@ hexo.on("ready", async () => {
             if (response.statusCode < 200 || response.statusCode > 299) {
               return reject(
                 new Error(
-                  `Failed to load page, status code: ${response.statusCode}`,
-                ),
+                  `Failed to load page, status code: ${response.statusCode}`
+                )
               );
             }
             let data = "";
@@ -37,7 +37,7 @@ hexo.on("ready", async () => {
                 reject(new Error(`JSON parse failed: ${error.message}`));
               }
             });
-          },
+          }
         )
         .on("error", (error) => {
           reject(error);
@@ -68,7 +68,7 @@ function logInfo(data) {
       |                            current v${version}  latest v${data.npmVersion}                             |
       |                  https://github.com/EvanNotFound/hexo-theme-redefine                 |
       +======================================================================================+
-                      `,
+                      `
   );
 }
 
@@ -86,7 +86,7 @@ function logFailedInfo() {
       |                        current v${version}  fetch latest failed                           |
       |                  https://github.com/EvanNotFound/hexo-theme-redefine                 |
       +======================================================================================+
-       `,
+       `
   );
 }
 
@@ -94,7 +94,7 @@ function checkVersionAndCDNAvailability(data) {
   if (data.npmVersion > version) {
     hexo.log.warn(
       `\x1b[33m%s\x1b[0m`,
-      `Redefine v${version} is outdated, please update to v${data.npmVersion}!`,
+      `Redefine v${version} is outdated, please update to v${data.npmVersion}!`
     );
   }
 

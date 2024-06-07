@@ -14,9 +14,9 @@ function postNoteLarge(args, content) {
   <div class="note-large ${args[0]}">
     <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
       ${icon}${hexo.render.renderSync({
-        text: args[args.length - 1],
-        engine: "markdown",
-      })}
+    text: args[args.length - 1],
+    engine: "markdown",
+  })}
     </div>
     <div class="notel-content">
       ${hexo.render.renderSync({

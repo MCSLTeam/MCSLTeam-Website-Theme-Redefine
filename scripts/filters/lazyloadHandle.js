@@ -1,6 +1,6 @@
-'use strict'
+"use strict";
 hexo.extend.filter.register(
-  'after_post_render',
+  "after_post_render",
   function (data) {
     const theme = hexo.theme.config;
     if (!theme.articles.lazyload || !theme.articles.lazyload) return;
@@ -16,9 +16,9 @@ hexo.extend.filter.register(
                      src="/images/loading.svg"
                      data-src="${src}"
                      ${attrEnd}
-                >`
+                >`;
       }
-    )
+    );
   },
   1
 );

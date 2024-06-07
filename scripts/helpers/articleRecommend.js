@@ -171,7 +171,7 @@ function cleanData(data) {
   });
   data = data.replace(
     /(http|ftp|https):\/\/[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&amp;:/~\+#]*[\w\-\@?^=%&amp;/~\+#])?/g,
-    " ",
+    " "
   );
   for (const symbol of symbolLists) {
     data = data.replace(new RegExp("\\" + symbol, "g"), " ");
@@ -218,7 +218,7 @@ function calculateWordFrequency(wordLibrary, wordsInArticle) {
       }
       return wordCountObj;
     },
-    JSON.parse(JSON.stringify(wordLibrary)),
+    JSON.parse(JSON.stringify(wordLibrary))
   );
 
   const wordFrequency = JSON.parse(JSON.stringify(wordLibrary));
@@ -260,20 +260,20 @@ function articleRecommendation(cfg) {
   for (let i = 0; i < corpus.length; i++) {
     const articlePath = articleLibrary[i].path;
     dataSet[articlePath]["inverseDocumentFrequency"] = JSON.parse(
-      JSON.stringify(wordLibrary),
+      JSON.stringify(wordLibrary)
     );
     dataSet[articlePath]["wordFrequency-inverseDocumentFrequency"] = JSON.parse(
-      JSON.stringify(wordLibrary),
+      JSON.stringify(wordLibrary)
     );
     dataSet[articlePath]["wordFrequencyVector"] = [];
     for (const word of Object.keys(wordLibrary)) {
       const inverseDocumentFrequency = Math.log(
-        corpus.length / (documentCountLibrary[word] + 1),
+        corpus.length / (documentCountLibrary[word] + 1)
       );
       const wordFrequencyInverseDocumentFrequency =
         dataSet[articlePath]["wordFrequency"][word] * inverseDocumentFrequency;
       dataSet[articlePath]["wordFrequencyVector"].push(
-        wordFrequencyInverseDocumentFrequency,
+        wordFrequencyInverseDocumentFrequency
       );
     }
   }
@@ -285,12 +285,12 @@ function articleRecommendation(cfg) {
       const articlePath2 = articleLibrary[j].path;
       similaritySet[articlePath1][articlePath2] = cosineSimilarity(
         dataSet[articlePath1]["wordFrequencyVector"],
-        dataSet[articlePath2]["wordFrequencyVector"],
+        dataSet[articlePath2]["wordFrequencyVector"]
       );
     }
     for (let j = 0; j < corpus.length; j++) {
       recommendationSet[articlePath1] = Object.keys(
-        similaritySet[articlePath1],
+        similaritySet[articlePath1]
       ).sort(function (a, b) {
         return similaritySet[articlePath1][b] - similaritySet[articlePath1][a]; // Descending order
       });
@@ -301,12 +301,12 @@ function articleRecommendation(cfg) {
     }
     recommendationSet[articlePath1] = recommendationSet[articlePath1].slice(
       0,
-      cfg.limit,
+      cfg.limit
     );
     for (let j = 0; j < recommendationSet[articlePath1].length; j++) {
       const e = recommendationSet[articlePath1][j];
       recommendationSet[articlePath1][j] = articleLibrary.filter(
-        (w) => w.path == e,
+        (w) => w.path == e
       )[0];
     }
   }

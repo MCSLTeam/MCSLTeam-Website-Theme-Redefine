@@ -82,7 +82,7 @@ hexo.extend.filter.register(
     if (config.template) {
       dlog(
         "warn",
-        'Looks like you use a deprecated property "template" to set up template, consider to use "theme"? See https://github.com/D0n9X1n/hexo-blog-encrypt#encrypt-theme',
+        'Looks like you use a deprecated property "template" to set up template, consider to use "theme"? See https://github.com/D0n9X1n/hexo-blog-encrypt#encrypt-theme'
       );
     }
 
@@ -92,12 +92,12 @@ hexo.extend.filter.register(
     if (tagUsed === false) {
       dlog(
         "info",
-        `hexo-blog-encrypt: encrypting "${data.title.trim()}" based on the password configured in Front-matter with theme: ${theme}.`,
+        `hexo-blog-encrypt: encrypting "${data.title.trim()}" based on the password configured in Front-matter with theme: ${theme}.`
       );
     } else {
       dlog(
         "info",
-        `hexo-blog-encrypt: encrypting "${data.title.trim()}" based on Tag: "${tagUsed}" with theme ${theme}.`,
+        `hexo-blog-encrypt: encrypting "${data.title.trim()}" based on Tag: "${tagUsed}" with theme ${theme}.`
       );
     }
 
@@ -126,21 +126,21 @@ hexo.extend.filter.register(
 
     return data;
   },
-  1000,
+  1000
 );
 
 hexo.extend.generator.register("hexo-blog-encrypt", () => [
   {
     data: () =>
       fs.createReadStream(
-        path.resolve(__dirname, `../../source/assets/hbe.style.css`),
+        path.resolve(__dirname, `../../source/assets/hbe.style.css`)
       ),
     path: `css/hbe.style.css`,
   },
   {
     data: () =>
       fs.createReadStream(
-        path.resolve(__dirname, "../../source/js/plugins/hbe.js"),
+        path.resolve(__dirname, "../../source/js/plugins/hbe.js")
       ),
     path: "lib/hbe.js",
   },

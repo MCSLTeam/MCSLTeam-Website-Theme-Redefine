@@ -19,9 +19,9 @@ function postNote(args, content) {
   return `
   <div class="note p-4 mb-4 rounded-small ${args.join(" ")}">
     ${icon}${hexo.render.renderSync({
-      text: content,
-      engine: "markdown",
-    })}
+    text: content,
+    engine: "markdown",
+  })}
   </div>`;
 }
 

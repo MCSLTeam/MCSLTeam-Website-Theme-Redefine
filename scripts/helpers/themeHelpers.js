@@ -24,7 +24,7 @@ hexo.extend.filter.register("after_post_render", function (data) {
     }
     const replaced = match.replace(
       '<figure class="highlight ',
-      '<figure class="iseeu highlight ',
+      '<figure class="iseeu highlight '
     );
     const container =
       '<div class="highlight-container" data-rel="' +
@@ -51,11 +51,11 @@ hexo.extend.helper.register("createNewArchivePosts", function (posts) {
   postList.sort((a, b) => b.year - a.year);
   postList.forEach((item) => {
     posts.forEach(
-      (post) => item.year === post.date.year() && item.postList.push(post),
+      (post) => item.year === post.date.year() && item.postList.push(post)
     );
   });
   postList.forEach((item) =>
-    item.postList.sort((a, b) => b.date.unix() - a.date.unix()),
+    item.postList.sort((a, b) => b.date.unix() - a.date.unix())
   );
   return postList;
 });
@@ -73,7 +73,7 @@ hexo.extend.helper.register(
     } else {
       return `Lv${level}`;
     }
-  },
+  }
 );
 
 hexo.extend.helper.register("getPostUrl", function (rootUrl, path) {

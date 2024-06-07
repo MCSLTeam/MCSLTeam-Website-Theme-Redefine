@@ -40,7 +40,7 @@ export default function initUtils() {
       const percent = this.calculatePercentage(
         scrollTop,
         scrollHeight,
-        clientHeight,
+        clientHeight
       );
 
       this.updateScrollProgressBar(percent);
@@ -97,7 +97,7 @@ export default function initUtils() {
       });
       window.addEventListener(
         "scroll",
-        this.debounce(() => this.updateHomeBannerBlur(), 20),
+        this.debounce(() => this.updateHomeBannerBlur(), 20)
       );
     },
 
@@ -151,7 +151,7 @@ export default function initUtils() {
       const height = document.body.scrollHeight;
       const windowHeight = window.innerHeight;
       const toolList = document.getElementsByClassName(
-        "right-side-tools-container",
+        "right-side-tools-container"
       );
       const aplayer = document.getElementById("aplayer");
 
@@ -192,7 +192,7 @@ export default function initUtils() {
       const fontAdjustMinus = this.fontAdMinus_dom;
 
       const fontSize = document.defaultView.getComputedStyle(
-        document.body,
+        document.body
       ).fontSize;
       const baseFontSize = parseFloat(fontSize);
 
@@ -304,7 +304,7 @@ export default function initUtils() {
 
     relativeTimeInHome() {
       const post = document.querySelectorAll(
-        ".home-product-meta-info .home-product-date",
+        ".home-product-meta-info .home-product-date"
       );
       const df = theme.home.article_date_format;
       if (df === "relative") {
@@ -312,10 +312,10 @@ export default function initUtils() {
           post.forEach((v) => {
             const nowDate = Date.now();
             const postDate = new Date(
-              v.dataset.date.split(" GMT")[0],
+              v.dataset.date.split(" GMT")[0]
             ).getTime();
             v.innerHTML = this.getHowLongAgo(
-              Math.floor((nowDate - postDate) / 1000),
+              Math.floor((nowDate - postDate) / 1000)
             );
           });
       } else if (df === "auto") {
@@ -323,14 +323,14 @@ export default function initUtils() {
           post.forEach((v) => {
             const nowDate = Date.now();
             const postDate = new Date(
-              v.dataset.date.split(" GMT")[0],
+              v.dataset.date.split(" GMT")[0]
             ).getTime();
             const finalDays = Math.floor(
-              (nowDate - postDate) / (60 * 60 * 24 * 1000),
+              (nowDate - postDate) / (60 * 60 * 24 * 1000)
             );
             if (finalDays < 7) {
               v.innerHTML = this.getHowLongAgo(
-                Math.floor((nowDate - postDate) / 1000),
+                Math.floor((nowDate - postDate) / 1000)
               );
             }
           });
