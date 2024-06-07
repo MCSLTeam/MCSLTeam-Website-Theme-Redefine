@@ -132,7 +132,7 @@ export default function initUtils() {
         location.pathname === config.root
       ) {
         const scrollY = window.scrollY || window.pageYOffset;
-        const blurValue = scrollY >= this.triggerViewHeight ? 15 : 0;
+        const blurValue = scrollY >= this.triggerViewHeight ? 15 : 5;
 
         try {
           requestAnimationFrame(() => {
@@ -304,7 +304,7 @@ export default function initUtils() {
 
     relativeTimeInHome() {
       const post = document.querySelectorAll(
-        ".home-article-meta-info .home-article-date",
+        ".home-product-meta-info .home-product-date",
       );
       const df = theme.home.article_date_format;
       if (df === "relative") {
