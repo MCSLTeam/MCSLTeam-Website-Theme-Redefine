@@ -74,39 +74,8 @@
         border none !important
         padding-top 0
 
-      .main-content
-        position relative
-        box-sizing border-box
-        width $main-content-width
-        max-width $content-max-width
-        height 100%
-        transition-t('max-width, width', '0, 0', '0.2, 0.2', 'ease, ease')
-
-        +redefine-tablet()
-          width $main-content-width-tablet
-
-        +redefine-mobile()
-          width $main-content-width-mobile
-
-        &.has-toc
-          max-width $has-toc-content-max-width !important
-
       .main-content-footer
         width 100%
-
-    .home-self-intro
-      position relative
-      box-sizing border-box
-      width auto
-      margin-bottom $spacing-unit
-      height 100%
-      transition-t('max-width, width', '0, 0', '0.2, 0.2', 'ease, ease')
-
-      +redefine-tablet()
-        width $main-content-width-tablet
-
-      +redefine-mobile()
-        width $main-content-width-mobile
 
 
 

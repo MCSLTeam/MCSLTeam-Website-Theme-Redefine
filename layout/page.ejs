@@ -14,7 +14,10 @@
             <%- partial('_partials/navbar') %>
         </div>
 
+        <% if (is_home()) { %>
         <%- partial('_partials/home-self-intro') %><br>
+        <%- partial('_partials/home-product') %><br>
+        <% } %>
 
         <div class="main-content-body">
 
@@ -25,7 +28,6 @@
             <div class="main-content">
 
                 <% if (is_home()) { %>
-                    <%- partial('_partials/home-content') %>
                     <div class="comment-container pjax"></div>
 
                 <% } else if (is_archive()) { %>
