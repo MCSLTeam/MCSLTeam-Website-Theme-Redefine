@@ -20,17 +20,46 @@
   .home-intro-content
     display flex
     flex-direction column
-    padding-left 30px
-    padding-top 10px
-    padding-bottom 30px
+    padding 10px 30px 30px 30px
     justify-content center
     color var(--third-text-color)
     font-family $english-font-family, $chinese-font-family, 'Noto Sans SC', sans-serif
 
-  .members
-    padding-left 30px
-    padding-bottom 30px
+  .scroll-container
+    position relative
+    width 100%
     display flex
+    align-items center
+    justify-content center
+
+  .scroll-button
+    z-index 2
+    position absolute
+    top 50%
+    transform translateY(-50%)
+    color var(--second-text-color)
+    border none
+    cursor pointer
+    padding 20px
+
+  .scroll-button-left
+    margin-right 10px
+    left 0
+
+  .scroll-button-right
+    margin-left 10px
+    right 0
+
+  .members
+    z-index 1
+    margin auto
+    padding-bottom 50px
+    display flex
+    width 93%
+    overflow auto
+    scrollbar-width none
+    &::-webkit-scrollbar
+      display none
 
   .member
     flex 0 0 auto

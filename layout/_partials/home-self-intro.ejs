@@ -7,14 +7,28 @@
         我们是一位位不畏难、不退缩、勇创新、敢作为的伙伴携手共成的团体。
     </div>
 
-    <!--  成员一览 -->
-    <div class="members">
-        <% theme.members.forEach(function(member) { %>
-                <div class="member">
-                    <img class="member-image" src="<%= member.avatar %>" alt="<%= member.name %>">
-                    <div class="member-name"><%= member.name %></div>
-                    <div class="member-role"><%= member.role %></div>
-                </div>
-        <% }) %>
+    <div class="scroll-container">
+        <div class="scroll-button-container"><button class="scroll-button scroll-button-left" onclick="scrollToLeft()"><i class="fas fa-chevron-left"></i></button></div>
+        <div class="members">
+            <% theme.members.forEach(function(member) { %>
+                    <div class="member">
+                        <img class="member-image" src="<%= member.avatar %>" alt="<%= member.name %>">
+                        <div class="member-name"><%= member.name %></div>
+                        <div class="member-role"><%= member.role %></div>
+                    </div>
+            <% }) %>
+        </div>
+        <div class="scroll-button-container"><button class="scroll-button scroll-button-right" onclick="scrollToRight()"><i class="fas fa-chevron-right"></i></button></div>
     </div>
 </div>
+<script>
+    function scrollToLeft() {
+        const membersContainer = document.querySelector('.members');
+        membersContainer.scrollBy({left: -200, behavior: 'smooth'}); // 根据需要调整滚动的距离
+    }
+
+    function scrollToRight() {
+        const membersContainer = document.querySelector('.members');
+        membersContainer.scrollBy({left: 200, behavior: 'smooth'}); // 根据需要调整滚动的距离
+    }
+</script>
