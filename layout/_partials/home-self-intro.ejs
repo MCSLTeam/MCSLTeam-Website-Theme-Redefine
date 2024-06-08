@@ -13,7 +13,7 @@
             <% theme.members.forEach(function(member) { %>
                     <div class="member">
                         <img class="member-image" src="<%= member.avatar %>" alt="<%= member.name %>">
-                        <div class="member-name"><%= member.name %></div>
+                        <div class="member-name"><a href="<%= member.link %>"><%= member.name %>&nbsp;<i class="<%= member.icon %>"></i></a></div>
                         <div class="member-role"><%= member.role %></div>
                     </div>
             <% }) %>

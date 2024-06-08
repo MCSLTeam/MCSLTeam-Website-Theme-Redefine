@@ -12,15 +12,15 @@
 # PRODUCT INFOMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 product:
   - name: MCServerLauncher 2
-    img: https://img.fastmirror.net/s/2023/10/29/653deb00353b8.png
+    img: https://images.mcsl.com.cn/new/favicon.png
     description: 一个简洁、全能的 Minecraft 开服器，MCSL开发组 2 年倾心打造
 
   - name: MCServerLauncher Future
-    img: https://img.fastmirror.net/s/2024/06/06/6661c980739ce.png
+    img: https://images.mcsl.com.cn/new/MCServerLauncherFuture.png
     description: MCSL 的新世代版本，暂未完工
 
   - name: MCSL-Sync
-    img: https://img.fastmirror.net/s/2024/03/02/65e311a68e197.png
+    img: https://images.mcsl.com.cn/new/MCSL-Sync.png
     description: 一个 MC 服务器核心镜像站
 # PRODUCT INFOMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
@@ -30,62 +30,92 @@ members:
   - name: 落雪无痕LxHTT
     avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3395314362&spec=640&img_type=jpg
     role: 总开发 / 总设计 / 创始人
+    link: https://github.com/LxHTT
+    icon: fa-brands fa-github
 
   - name: 爱喝矿泉水
     avatar: https://q.qlogo.cn/headimg_dl?dst_uin=2247176795&spec=640&img_type=jpg
     role: 副开发 / 创始人
+    link: https://github.com/AresConnor
+    icon: fa-brands fa-github
 
   - name: shenjack
     avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3695888&spec=640&img_type=jpg
     role: 副开发
+    link: https://github.com/shenjackyuanjie
+    icon: fa-brands fa-github
 
   - name: 饼干
     avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3076823485&spec=640&img_type=jpg
     role: 副开发 / 创始人
+    link: https://github.com/lgc2333
+    icon: fa-brands fa-github
 
   - name: kitUIN
     avatar: https://q.qlogo.cn/headimg_dl?dst_uin=1585447424&spec=640&img_type=jpg
     role: 创新建设者 / 副开发
+    link: https://github.com/kitUIN
+    icon: fa-brands fa-github
 
   - name: 烟墨
     avatar: https://q.qlogo.cn/headimg_dl?dst_uin=2315049216&spec=640&img_type=jpg
     role: 副开发 / 运维
+    link: https://github.com/ltzXiaoYanMo
+    icon: fa-brands fa-github
 
   - name: 括弧
     avatar: https://q.qlogo.cn/headimg_dl?dst_uin=183713750&spec=640&img_type=jpg
     role: 前端开发者 / 运维
+    link: https://github.com/daizihan233
+    icon: fa-brands fa-github
 
   - name: Z_Tsin
     avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3372523&spec=640&img_type=jpg
     role: 运维 / 创始人
+    link: https://github.com/ztsinsun
+    icon: fa-brands fa-github
 
   - name: 星姮十织
     avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3192145045&spec=640&img_type=jpg
     role: 创新开发者
+    link: https://github.com/hengshizhi
+    icon: fa-brands fa-github
 
   - name: LoveChinaT
     avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3273789867&spec=640&img_type=jpg
     role: 荣誉开发 / 创始人
+    link: https://gitee.com/ct_zhiyu
+    icon: fa-brands fa-github
 
   - name: 雪球
     avatar: https://q.qlogo.cn/headimg_dl?dst_uin=2957202260&spec=640&img_type=jpg
     role: 创新建设者
+    link: https://github.com/SnowballXueQiu
+    icon: fa-brands fa-github
 
   - name: 锅盖
     avatar: https://q.qlogo.cn/headimg_dl?dst_uin=2509043002&spec=640&img_type=jpg
     role: 荣誉开发 / 创始人
+    link: https://github.com/wyx55520
+    icon: fa-brands fa-github
 
   - name: XieXiLin
     avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3068342155&spec=640&img_type=jpg
     role: 专治各种格式不规范
+    link: https://github.com/XieXiLin2
+    icon: fa-brands fa-github
 
   - name: Yurnu
     avatar: https://q.qlogo.cn/headimg_dl?dst_uin=1487084645&spec=640&img_type=jpg
     role: 创新建设者 / 开发者
+    link: https://github.com/StarryCamile
+    icon: fa-brands fa-github
 
   - name: Tiger
     avatar: https://q.qlogo.cn/headimg_dl?dst_uin=1577438625&spec=640&img_type=jpg
     role: 前端开发者
+    link: https://github.com/Tigercrl
+    icon: fa-brands fa-github
 
 
 # MEMBERS INFOMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -94,11 +124,11 @@ members:
 # INTRO CONFIGURATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 intro:
   # Favicon
-  favicon: https://img.fastmirror.net/s/2023/10/29/653deb00353b8.png
+  favicon: https://images.mcsl.com.cn/new/favicon.png
   # Site logo
-  logo: https://img.fastmirror.net/s/2023/10/29/653deb00353b8.png
+  logo: https://images.mcsl.com.cn/new/favicon.png
   # Site avatar
-  avatar: https://img.fastmirror.net/s/2023/10/29/653deb00353b8.png
+  avatar: https://images.mcsl.com.cn/new/favicon.png
   
 # INTRO CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
@@ -123,11 +153,11 @@ info:
 # Docs: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
   # Favicon
-  favicon: https://img.fastmirror.net/s/2023/10/29/653deb00353b8.png
+  favicon: https://images.mcsl.com.cn/new/favicon.png
   # Site logo
-  logo: https://img.fastmirror.net/s/2023/10/29/653deb00353b8.png
+  logo: https://images.mcsl.com.cn/new/favicon.png
   # Site avatar
-  avatar: https://img.fastmirror.net/s/2023/10/29/653deb00353b8.png
+  avatar: https://images.mcsl.com.cn/new/favicon.png
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -213,8 +243,8 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: https://img.fastmirror.net/s/2024/06/07/6662c20e7d3d9.png # light mode
-    dark: https://img.fastmirror.net/s/2024/06/07/6662c20e7d3d9.png # dark mode
+    light: https://images.mcsl.com.cn/new/bg.png # light mode
+    dark: https://images.mcsl.com.cn/new/bg.png # dark mode
   # Home banner title
   title: MCSL 开发组
   # Home banner subtitle
@@ -425,7 +455,7 @@ articles:
     # Max number of articles to display mobile
     mobile_limit: 2
     # Placeholder image
-    placeholder: https://img.fastmirror.net/s/2024/06/07/6662c20e7d3d9.png
+    placeholder: https://images.mcsl.com.cn/new/bg.png
     # Skip directory
     skip_dirs: []
 # ARTICLE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
