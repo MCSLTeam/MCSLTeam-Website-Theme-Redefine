@@ -22,13 +22,16 @@
     </div>
 </div>
 <script>
+    const membersContainer = document.querySelector('.members');
+    membersContainer.addEventListener('wheel', function(e) {
+        e.preventDefault(); // 阻止默认的垂直滚动
+        membersContainer.scrollBy({left: e.deltaY*4, behavior: 'smooth'});
+    });
     function scrollToLeft() {
-        const membersContainer = document.querySelector('.members');
-        membersContainer.scrollBy({left: -195, behavior: 'smooth'}); // 根据需要调整滚动的距离
+        membersContainer.scrollBy({left: -195, behavior: 'smooth'});
     }
 
     function scrollToRight() {
-        const membersContainer = document.querySelector('.members');
-        membersContainer.scrollBy({left: 195, behavior: 'smooth'}); // 根据需要调整滚动的距离
+        membersContainer.scrollBy({left: 195, behavior: 'smooth'});
     }
 </script>
