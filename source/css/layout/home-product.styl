@@ -4,7 +4,7 @@
   margin-top $spacing-unit - 20px
   margin-left 30px
   margin-right 30px
-  padding-bottom 20px
+  padding-bottom 30px
   border-radius $redefine-border-radius-large
   position relative
   box-shadow var(--redefine-box-shadow)
@@ -29,6 +29,16 @@
 
 
 .home-product-container
+  +redefine-tablet()
+    flex-direction column
+
+  +redefine-mobile()
+    flex-direction column
+
+  display flex
+  flex-direction row
+  justify-content space-between
+  align-content space-between
   margin-left 30px
   margin-right 30px
   border-radius $redefine-border-radius-large
@@ -64,123 +74,94 @@
     word-wrap normal !important
     word-break normal
 
-  .home-product-list
-    .home-product-item
-      border-radius $redefine-border-radius-large
-      backdrop-filter blur(10px)
-      -webkit-backdrop-filter blur(10px)
-      position relative
-      text-align left
+  .home-product-selector
+    display flex
+    flex-direction column
+    flex-shrink 0
+
+    .home-product-selector-item
+      background var(--background-color-transparent-80)
+      border-radius $redefine-border-radius-small
       display flex
-      redefine-container(
-        true,
-        1.015,
-        1.015,
-        0px,
-        28px
-      )
-    
-      .home-product-thumbnail img
-        width 50%
-        height 50%
-        object-position left
-        border-radius $redefine-border-radius-large
-        display flex
-        justify-content center
-        align-items center
-        overflow hidden
-        margin-bottom 18px
-        margin-left 18px
-        margin-top 18px
+      align-content left
+      align-items left
+      padding 3px
+      margin-bottom 10px
 
-        +redefine-tablet()
-          width 60%
-          height 60%
+      .product-icon
+        flex-shrink 0
+        width 50px
+        height 50px
 
-        +redefine-mobile()
-          width 70%
-          height 70%
-      
-      .home-product-thumbnail
-        width 80%
-        height 100%
-        display flex
-        overflow hidden
-        align-items center
-      
-      .text-container
-        vertical-align center
-        margin-bottom 30px
-        margin-right 30px
-        margin-top 30px
-        flex-direction column
-        width 80%
-        height 100%
-        display flex
-        justify-content flex-start
-        overflow hidden
-        align-items left
-
-      .home-product-title
-        align-content left
-        position relative
-        font-weight 700
-        font-size 1.4rem
-        line-height 1.5
-        color var(--second-text-color)
-        font-family $english-font-family, $chinese-font-family, 'Noto Sans SC', sans-serif
-    
-        +redefine-tablet()
-          font-size 1.3rem
-    
-        +redefine-mobile()
-          font-size 1.2rem
-    
-        margin 0
-    
-      .home-product-content
-        flex-grow 1
-        align-content left
-        overflow hidden
-        text-overflow ellipsis
-        color var(--default-text-color)
-    
-      .home-product-meta-info-container
-        display flex
-        justify-content space-between
-        align-items center
-        font-size 0.92rem
+      .product-name
+        width auto
+        font-size 1.2rem
         color var(--third-text-color)
-    
-        .home-product-meta-info
-          letter-spacing 0.5px
-    
-          span
-            margin-right 10px
-    
-            &:last-child
-              margin-right 0
-    
-            ul, li
-              display inline
-    
-          .home-product-category
-            +redefine-mobile()
-              display none
-    
-          .home-product-tag
-            +redefine-tablet()
-              display none
-    
-        hr
-          border none
-          flex 1
-          height 1px
-          background var(--border-color)
-          margin 0 10px
-    
-        a
-          color var(--third-text-color)
-    
-          &:hover
-            color var(--primary-color)
+        align-content center
+        margin-left 15px
+        margin-right 15px
+        transition color 0.5s ease-in-out
+
+  .home-product-view
+    margin-left $spacing-unit
+
+    +redefine-tablet()
+      margin-left 0
+      margin-right 0
+
+    +redefine-mobile()
+      margin-left 0
+      margin-right 0
+
+    .product-image
+      margin-right 5px
+      margin-top 13px
+      border-radius $redefine-border-radius-medium
+      transition opacity 0.5s ease-in-out
+      width 100%
+      height auto
+
+    .product-title
+      transition opacity 0.5s ease-in-out
+      align-content left
+      position relative
+      font-weight 700
+      font-size 1.4rem
+      line-height 1.5
+      color var(--second-text-color)
+      font-family $english-font-family, $chinese-font-family, 'Noto Sans SC', sans-serif
+
+      +redefine-tablet()
+        font-size 1.3rem
+
+      +redefine-mobile()
+        font-size 1.2rem
+
+      margin 0
+
+    .product-description
+      margin-top 10px
+      font-size 1.2rem
+      color var(--third-text-color)
+      position relative
+      transition opacity 0.5s ease-in-out
+      flex-grow 1
+      align-content left
+      overflow hidden
+      text-overflow ellipsis
+      color var(--default-text-color)
+      display flex
+      justify-content space-between
+
+      hr
+        border none
+        flex 1
+        height 1px
+        background var(--border-color)
+        margin 0 10px
+
+      a
+        color var(--third-text-color)
+
+        &:hover
+          color var(--primary-color)

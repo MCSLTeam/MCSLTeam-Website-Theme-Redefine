@@ -3,6 +3,52 @@
     <div class="product-intro-title">妙手生花，创意无限</div>
     <div class="product-intro-content">我们勇于创新，不断追求卓越，各种创意设计与新颖想法是我们执手的利刃。</div>
 <div class="home-product-container">
-    <%- partial('home-product-list') %>
+    <ul class="home-product-selector">
+        <% theme.product.forEach(function(product, index) { %>
+        <li class="home-product-selector-item" data-index="<%= index %>" onclick="changeBackground(this)">
+            <img src="<%- url_for(product.icon) %>" alt="<%= product.name %> Icon" class="product-icon" />
+            <div class="product-name"><%= product.name %></div>
+        </li>
+        <% }) %>
+    </ul>
+    <div class="home-product-view">
+        <div id="productTitle" class="product-title"></div>
+        <div id="productDescription" class="product-description"></div>
+        <img id="productImage" class="product-image"/>
+    </div>
 </div>
-</div>  
+</div>
+<script>
+    document.querySelectorAll('.home-product-selector-item')[0].style.background = '#75DADD';
+    changeProduct(0);
+    function changeBackground(element) {
+        var items = document.querySelectorAll('.home-product-selector-item');
+        items.forEach(function(item) {
+            item.style.background = 'var(--background-color-transparent-80)';
+        });
+        element.style.background = '#75DADD';
+        changeProduct(element.getAttribute('data-index'));
+    }
+    function changeProduct(index) {
+        var products = '<%- JSON.stringify(theme.product) %>';
+        products = JSON.parse(products);
+
+        var title = document.getElementById('productTitle');
+        var description = document.getElementById('productDescription');
+        var image = document.getElementById('productImage');
+
+        title.style.opacity = 0;
+        description.style.opacity = 0;
+        image.style.opacity = 0;
+
+        setTimeout(function() {
+            title.innerHTML = products[index]['name'];
+            description.innerHTML = products[index]['description'];
+            image.src = products[index]['image'];
+
+            title.style.opacity = 1;
+            description.style.opacity = 1;
+            image.style.opacity = 1;
+        }, 500);
+    }
+</script>

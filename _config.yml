@@ -12,16 +12,19 @@
 # PRODUCT INFOMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 product:
   - name: MCServerLauncher 2
-    img: https://images.mcsl.com.cn/new/favicon.png
-    description: 一个简洁、全能的 Minecraft 开服器，MCSL开发组 2 年倾心打造
+    icon: https://images.mcsl.com.cn/new/favicon.png
+    description: 一个简洁、全能的 Minecraft 开服器，MCSL开发组用 Python 倾心打造 2 年之作
+    image: https://images.mcsl.com.cn/new/mcsl2-preview.png
 
   - name: MCServerLauncher Future
-    img: https://images.mcsl.com.cn/new/MCServerLauncherFuture.png
-    description: MCSL 的新世代版本，暂未完工
+    icon: https://images.mcsl.com.cn/new/MCServerLauncherFuture.png
+    description: MCSL 的新世代版本，暂未完工，由 C# 强势驱动，将会提供更多功能
+    image: https://images.mcsl.com.cn/new/bg.png
 
   - name: MCSL-Sync
-    img: https://images.mcsl.com.cn/new/MCSL-Sync.png
-    description: 一个 MC 服务器核心镜像站
+    icon: https://images.mcsl.com.cn/new/MCSL-Sync.png
+    description: 一个全面的 MC 服务器核心镜像站，提供 25 种服务器核心下载
+    image: https://images.mcsl.com.cn/new/mcsl-sync-preview.png
 # PRODUCT INFOMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
