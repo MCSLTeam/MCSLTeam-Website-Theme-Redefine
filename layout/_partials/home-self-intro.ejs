@@ -24,6 +24,11 @@
 <script>
     const membersContainer = document.querySelector('.members');
     membersContainer.addEventListener('wheel', function(e) {
+        if (
+            (e.deltaY < 0 && this.scrollLeft <= 0) ||
+        (e.deltaY > 0 && this.scrollLeft + this.offsetWidth >= this.scrollWidth)) {
+        return;
+    }
         e.preventDefault(); // 阻止默认的垂直滚动
         membersContainer.scrollBy({left: e.deltaY*4, behavior: 'smooth'});
     });
