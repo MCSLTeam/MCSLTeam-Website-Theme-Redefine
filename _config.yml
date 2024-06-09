@@ -18,7 +18,7 @@ product:
 
   - name: MCServerLauncher Future
     icon: https://images.mcsl.com.cn/new/MCServerLauncherFuture.png
-    description: MCSL 的新世代版本，暂未完工，由 C# 强势驱动，将会提供更多功能
+    description: MCSL 的新世代版本，暂未完工，由 C# 强势驱动，展望未来
     image: https://images.mcsl.com.cn/new/bg.png
 
   - name: MCSL-Sync
