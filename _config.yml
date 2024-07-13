@@ -12,16 +12,19 @@
 # PRODUCT INFOMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 product:
   - name: MCServerLauncher 2
+    link: /mcsl2
     icon: https://images.mcsl.com.cn/new/favicon.png
     description: 一个简洁、全能的 Minecraft 开服器，MCSL开发组用 Python 倾心打造 2 年之作
     image: https://images.mcsl.com.cn/new/mcsl2-preview.png
 
   - name: MCServerLauncher Future
+    link: /
     icon: https://images.mcsl.com.cn/new/MCServerLauncherFuture.png
     description: MCSL 的新世代版本，暂未完工，由 C# 强势驱动，展望未来
     image: https://images.mcsl.com.cn/new/bg.png
 
   - name: MCSL-Sync
+    link: /
     icon: https://images.mcsl.com.cn/new/MCSL-Sync.png
     description: 一个全面的 MC 服务器核心镜像站，提供 25 种服务器核心下载
     image: https://images.mcsl.com.cn/new/mcsl-sync-preview.png
@@ -322,7 +325,7 @@ navbar:
   auto_hide: true
   # Navbar background color
   color:
-    left: "#1BFFD0" #left side 
+    left: "#1BFFD0" #left side
     right: "#64ABFF"  #right side
     transparency: 99 #percent (10-99)
   # Navbar width (usually no need to modify)
@@ -331,16 +334,21 @@ navbar:
     pages: 1000px #other pages
   # Navbar links
   links:
-    Home: 
-      path: / 
-      icon: fa-regular fa-house # can be empty
-    # Archives: 
-    #   path: /archives 
+    Home:
+      path: /
+      icon: fa-regular fa-house
+    产品:
+      submenus:
+        MCSL2: /mcsl2
+        MCServerLauncher Future: /
+        MCSL-Sync: /
+    # Archives:
+    #   path: /archives
     #   icon: fa-regular fa-archive # can be empty
-    # Status: 
-    #   path: https://status.ohevan.com/
-    #   icon: fa-regular fa-chart-bar
-    # About: 
+    Status:
+      path: /status
+      icon: fa-regular fa-chart-bar
+    # About:
     #   icon: fa-regular fa-user
     #   submenus:
     #     Me: /about

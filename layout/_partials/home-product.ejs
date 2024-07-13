@@ -12,7 +12,7 @@
         <% }) %>
     </ul>
     <div class="home-product-view">
-        <div id="productTitle" class="product-title"></div>
+        <a id="productTitle" class="product-title"></a>
         <div id="productDescription" class="product-description"></div>
         <img id="productImage" class="product-image"/>
     </div>
@@ -43,6 +43,7 @@
 
         setTimeout(function() {
             title.innerHTML = products[index]['name'];
+            title.href = products[index]['link'];
             description.innerHTML = products[index]['description'];
             image.src = products[index]['image'];
 
