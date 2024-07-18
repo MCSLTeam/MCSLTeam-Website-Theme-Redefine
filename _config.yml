@@ -24,7 +24,7 @@ product:
     image: https://images.mcsl.com.cn/new/bg.png
 
   - name: MCSL-Sync
-    link: /
+    link: https://sync.mcsl.com.cn/
     icon: https://images.mcsl.com.cn/new/MCSL-Sync.png
     description: 一个全面的 MC 服务器核心镜像站，提供 25 种服务器核心下载
     image: https://images.mcsl.com.cn/new/mcsl-sync-preview.png
@@ -347,7 +347,7 @@ navbar:
       submenus:
         MCSL2: /mcsl2
         MCServerLauncher Future: /
-        MCSL-Sync: /
+        MCSL-Sync: https://sync.mcsl.com.cn/
     # Archives:
     #   path: /archives
     #   icon: fa-regular fa-archive # can be empty
