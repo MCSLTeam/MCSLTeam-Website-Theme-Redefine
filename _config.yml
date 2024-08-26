@@ -12,7 +12,7 @@
 # PRODUCT INFOMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 product:
   - name: MCServerLauncher 2
-    link: /mcsl2
+    link: https://v2.mcsl.com.cn/
     icon: https://images.mcsl.com.cn/new/favicon.png
     description: 一个简洁、全能的 Minecraft 开服器，MCSL开发组用 Python 倾心打造 2 年之作
     image: https://images.mcsl.com.cn/new/mcsl2-preview.png
@@ -345,7 +345,7 @@ navbar:
       icon: fa-regular fa-house
     产品:
       submenus:
-        MCSL2: /mcsl2
+        MCSL2: https://v2.mcsl.com.cn/
         MCServerLauncher Future: /
         MCSL-Sync: https://sync.mcsl.com.cn/
     # Archives:
