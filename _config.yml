@@ -156,7 +156,7 @@ info:
   # Site SEO keywords
   seo: MC 服务器, Minecraft 服务器, 我的世界开服器, MC 开服软件，内网穿透，MCSL，MCServerLauncher，MCSL开发组，MCSL-Sync，服务器核心
   # Author name
-  author: MCSLTeam
+  author: MCSL开发组
   # Site URL
   url: https://mcsl.com.cn
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -347,7 +347,7 @@ navbar:
     产品:
       submenus:
         MCSL2: https://v2.mcsl.com.cn/
-        MCServerLauncher Future: /
+        MCServerLauncher Future: https://future.mcsl.com.cn/
         MCSL-Sync: https://sync.mcsl.com.cn/
     # Archives:
     #   path: /archives
@@ -535,7 +535,7 @@ footer:
   # Site statistics
   statistics: false # show site statistics or not (total articles, total words)
   # Footer message
-  customize:
+  customize: 本站由 木韩网络 提供 CDN 加速与防御支持。
   # ICP record number. See https://beian.miit.gov.cn/
   icp:
     enable: true # Whether to enable
