@@ -51,6 +51,12 @@ members:
     link: https://github.com/shenjackyuanjie
     icon: fa-brands fa-github
 
+  - name: Tiger
+    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=1577438625&spec=640&img_type=jpg
+    role: 副开发
+    link: https://github.com/Tigercrl
+    icon: fa-brands fa-github
+
   - name: 饼干
     avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3076823485&spec=640&img_type=jpg
     role: 副开发 / 创始人
@@ -123,11 +129,6 @@ members:
     link: https://github.com/StarryCamile
     icon: fa-brands fa-github
 
-  - name: Tiger
-    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=1577438625&spec=640&img_type=jpg
-    role: 前端开发者
-    link: https://github.com/Tigercrl
-    icon: fa-brands fa-github
 
 
 # MEMBERS INFOMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
