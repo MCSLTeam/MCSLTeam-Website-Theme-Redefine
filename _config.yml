@@ -18,15 +18,15 @@ product:
     image: https://images.mcsl.com.cn/new/mcsl2-preview.png
 
   - name: MCServerLauncher Future
-    link: /
+    link: https://future.mcsl.com.cn/
     icon: https://images.mcsl.com.cn/new/MCServerLauncherFuture.png
-    description: MCSL 的新世代版本，暂未完工，由 C# 强势驱动，展望未来
+    description: MCSL 的全新版本。完全重新设计，功能全面，简单上手。(暂未完工)
     image: https://images.mcsl.com.cn/new/bg.png
 
   - name: MCSL-Sync
     link: https://sync.mcsl.com.cn/
     icon: https://images.mcsl.com.cn/new/MCSL-Sync.png
-    description: 一个全面的 MC 服务器核心镜像站，提供 25 种服务器核心下载
+    description: 一个全面的 MC 服务器核心镜像站，提供超过 30 种服务器核心下载
     image: https://images.mcsl.com.cn/new/mcsl-sync-preview.png
 # PRODUCT INFOMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
