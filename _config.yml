@@ -8,7 +8,6 @@
 # DEMO: https://redefine.ohevan.com
 # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
-
 # PRODUCT INFOMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 product:
   - name: MCServerLauncher 2
@@ -30,12 +29,11 @@ product:
     image: https://images.mcsl.com.cn/new/mcsl-sync-preview.png
 # PRODUCT INFOMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
-
 # MEMBERS INFOMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 members:
   - name: 落雪无痕LxHTT
     avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3395314362&spec=640&img_type=jpg
-    role: 总开发 / 总设计 / 创始人
+    role: 全栈 DevOps / 创始人
     link: https://github.com/LxHTT
     icon: fa-brands fa-github
 
@@ -57,9 +55,15 @@ members:
     link: https://github.com/Tigercrl
     icon: fa-brands fa-github
 
+  - name: Mavis
+    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=1530624156&spec=640&img_type=jpg
+    role: Java 全栈 DevOps
+    link: https://github.com/orgs/MCSLTeam/people/1530624156
+    icon: fa-brands fa-github
+
   - name: 饼干
     avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3076823485&spec=640&img_type=jpg
-    role: 副开发 / 创始人
+    role: 创始人
     link: https://github.com/lgc2333
     icon: fa-brands fa-github
 
@@ -129,10 +133,7 @@ members:
     link: https://github.com/StarryCamile
     icon: fa-brands fa-github
 
-
-
 # MEMBERS INFOMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
-
 
 # INTRO CONFIGURATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 intro:
@@ -142,9 +143,8 @@ intro:
   logo: https://images.mcsl.com.cn/new/MCServerLauncherFuture.png
   # Site avatar
   avatar: https://images.mcsl.com.cn/new/MCServerLauncherFuture.png
-  
-# INTRO CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
+# INTRO CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 # BASIC INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/basic/info
@@ -161,7 +161,6 @@ info:
   url: https://mcsl.com.cn
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
-
 # IMAGE CONFIGURATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
@@ -172,7 +171,6 @@ defaults:
   # Site avatar
   avatar: https://images.mcsl.com.cn/new/MCServerLauncherFuture.png
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
-
 
 # COLORS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/basic/colors
@@ -185,22 +183,21 @@ colors:
   default_mode: light # light, dark
 # COLORS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
-
 # SITE CUSTOMIZATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/basic/global
 global:
   # Custom fonts
   fonts:
     # Chinese fonts
-    chinese: 
+    chinese:
       enable: false # Whether to enable custom chinese fonts
-      family:  # Font family
-      url:  # Font URL to CSS file
+      family: # Font family
+      url: # Font URL to CSS file
     # English fonts
-    english: 
+    english:
       enable: false # Whether to enable custom english fonts
-      family:  # Font family
-      url:  # Font URL to CSS file
+      family: # Font family
+      url: # Font URL to CSS file
   # Content max width
   content_max_width: 1000px
   # Sidebar width
@@ -229,9 +226,8 @@ global:
   # Google Analytics
   google_analytics:
     enable: false # Whether to enable Google Analytics
-    id:  # Google Analytics Measurement ID
+    id: # Google Analytics Measurement ID
 # SITE CUSTOMIZATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
-    
 
 # FONTAWESOME >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/basic/fontawesome
@@ -246,7 +242,6 @@ fontawesome: # Pro v6.2.1
   sharp_solid: false
 # FONTAWESOME <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
-
 # HOME BANNER >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/home/home_banner
 home_banner:
@@ -255,7 +250,7 @@ home_banner:
   # style of home banner
   style: fixed # static or fixed
   # Home banner image
-  image: 
+  image:
     light: https://images.mcsl.com.cn/new/bg.png # light mode
     dark: https://images.mcsl.com.cn/new/bg.png # dark mode
   # Home banner title
@@ -263,19 +258,19 @@ home_banner:
   # Home banner subtitle
   subtitle:
     text: [
-      "即使无法掌握未来，也请不要忘了明天。",
-      "From our heart, for your mind.",
-      "以心相面，从心出发。",
-      "品味自己，与自己对话。",
-      "Welcome to future.",
-      "文字创造出了一种美妙的界面，非常灵活，而且比起凝视屏幕后的现实来说，不会让人那么恐惧。",
-      "你若盛开，清风自来。",
-      "君子可寓意于物，但不可留意于物。",
-      "人生最大的悲哀，莫过于不懂得珍惜。",
-      "不忘初心，方得始终。",
-      "活着就是为了改变世界。"
-    ] # subtitle text, array
-    hitokoto:  # 一言配置
+        "即使无法掌握未来，也请不要忘了明天。",
+        "From our heart, for your mind.",
+        "以心相面，从心出发。",
+        "品味自己，与自己对话。",
+        "Welcome to future.",
+        "文字创造出了一种美妙的界面，非常灵活，而且比起凝视屏幕后的现实来说，不会让人那么恐惧。",
+        "你若盛开，清风自来。",
+        "君子可寓意于物，但不可留意于物。",
+        "人生最大的悲哀，莫过于不懂得珍惜。",
+        "不忘初心，方得始终。",
+        "活着就是为了改变世界。",
+      ] # subtitle text, array
+    hitokoto: # 一言配置
       enable: false # Whether to enable hitokoto
       api: https://v1.hitokoto.cn/?c=k # API URL, can add types, see https://developer.hitokoto.cn/sentence/#%E5%8F%A5%E5%AD%90%E7%B1%BB%E5%9E%8B-%E5%8F%82%E6%95%B0
     typing_speed: 70 # Typing speed (ms)
@@ -285,11 +280,11 @@ home_banner:
     loop: true # Whether to loop
     smart_backspace: true # Whether to smart backspace
   # Color of home banner text
-  text_color: 
+  text_color:
     light: "#ffffff" # light mode
     dark: "#ffffff" # dark mode
   # Specific style of the text
-  text_style: 
+  text_style:
     # Title font size
     title_size: 2.8rem
     # Subtitle font size
@@ -297,11 +292,11 @@ home_banner:
     # Line height between title and subtitle
     line_height: 1.2
   # Home banner custom font
-  custom_font: 
+  custom_font:
     # Whether to enable custom font
     enable: false
     # Font family
-    family: 
+    family:
     # URL to font CSS file
     url:
   # Home banner social links
@@ -314,16 +309,15 @@ home_banner:
     links:
       github: https://github.com/MCSLTeam # your GitHub URL
       instagram: # your Instagram URL
-      zhihu:  # your ZhiHu URL
-      twitter:  # your twitter URL
+      zhihu: # your ZhiHu URL
+      twitter: # your twitter URL
       email: services@mcsl.com.cn # your email
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
-      weixin:  # your Wechat QRcode image URL
+      weixin: # your Wechat QRcode image URL
       # ...... # you can add more
 # HOME BANNER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
-
 
 # NAVIGATION BAR >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/home/navbar
@@ -333,7 +327,7 @@ navbar:
   # Navbar background color
   color:
     left: "#1BFFD0" #left side
-    right: "#64ABFF"  #right side
+    right: "#64ABFF" #right side
     transparency: 99 #percent (10-99)
   # Navbar width (usually no need to modify)
   width:
@@ -362,7 +356,7 @@ navbar:
     #     Github: https://github.com/EvanNotFound/hexo-theme-redefine
     #     Blog: https://ohevan.com
     #     Friends: /friends
-    # Links: 
+    # Links:
     #   icon: fa-regular fa-link
     #   submenus:
     #     Link1: /link1
@@ -377,7 +371,6 @@ navbar:
     preload: false
 # NAVIGATION BAR <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
-
 # HOME PAGE ARTICLE SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/home/home
 home:
@@ -389,28 +382,27 @@ home:
     announcement: # Announcement text
     show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
     links:
-      # Archives: 
-      #   path: /archives 
+      # Archives:
+      #   path: /archives
       #   icon: fa-regular fa-archive # can be empty
-      # Tags: 
-      #   path: /tags 
+      # Tags:
+      #   path: /tags
       #   icon: fa-regular fa-tags # can be empty
-      # Categories: 
-      #   path: /categories 
+      # Categories:
+      #   path: /categories
       #   icon: fa-regular fa-folder # can be empty
       # ...... # you can add more
   # Article date format
   article_date_format: auto # auto, relative, YYYY-MM-DD, YYYY-MM-DD HH:mm:ss etc.
   # Article categories visibility
   categories:
-    enable: true  # Whether to enable
+    enable: true # Whether to enable
     limit: 3 # Max number of categories to display
   # Article tags visibility
   tags:
-    enable: true  # Whether to enable
-    limit: 3  # Max number of tags to display
+    enable: true # Whether to enable
+    limit: 3 # Max number of tags to display
 # HOME PAGE ARTICLE SETTINGS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
-
 
 # ARTICLE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/posts/articles
@@ -437,7 +429,7 @@ articles:
     count: true # Whether to display word count
     min2read: true # Whether to display reading time
   # Author label
-  author_label: 
+  author_label:
     enable: false # Whether to enable
     auto: false # Whether to automatically add author label, e.g. Lv1, Lv2, Lv3...
     list: []
@@ -477,7 +469,6 @@ articles:
     # Skip directory
     skip_dirs: []
 # ARTICLE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
-
 
 # COMMENT >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/posts/comment
@@ -522,14 +513,13 @@ comment:
       loading: lazy # Load the comments lazily
 # COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
-
 # FOOTER >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/footer
 footer:
   # Show website running time
   runtime: true # show website running time or not
   # Icon in footer, write fontawesome icon code here
-  icon: ''
+  icon: ""
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
   start: 2022/08/27 22:25:27
   # Site statistics
@@ -543,14 +533,13 @@ footer:
     url: https://beian.miit.gov.cn/ # ICP record url
 # FOOTER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
-
 # INJECT >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/inject
 inject:
   # Whether to enable inject
   enable: false
   # Inject custom head html code
-  head: 
+  head:
     -
     -
   # Inject custom footer html code
@@ -558,7 +547,6 @@ inject:
     -
     -
 # INJECT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
-
 
 # PLUGINS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/plugins
@@ -576,18 +564,17 @@ plugins:
         url: # audio url
         cover: # audio cover url
         lrc: # audio cover lrc
-#      - name: # audio name
-#        artist: # audio artist
-#        url: # audio url
-#        cover: # audio cover url
-#        lrc: # audio cover lrc
-      # .... you can add more audios here
+  #      - name: # audio name
+  #        artist: # audio artist
+  #        url: # audio url
+  #        cover: # audio cover url
+  #        lrc: # audio cover lrc
+  # .... you can add more audios here
   # Mermaid JS. Requires hexo-filter-mermaid-diagrams (npm i hexo-filter-mermaid-diagrams). See https://mermaid.js.org/
   mermaid:
     enable: false # enable mermaid or not
     version: "9.3.0" # default v9.3.0
 # PLUGINS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
-
 
 # PAGE TEMPLATES >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/page_templates
@@ -597,7 +584,6 @@ page_templates:
   # Tags page style
   tags_style: blur # blur, cloud
 # PAGE TEMPLATES <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
-
 
 # CDN >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/cdn
