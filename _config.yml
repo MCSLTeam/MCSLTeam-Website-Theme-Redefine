@@ -51,20 +51,20 @@ members:
 
   - name: Tiger
     avatar: https://q.qlogo.cn/headimg_dl?dst_uin=1577438625&spec=640&img_type=jpg
-    role: 副开发
+    role: 全栈 / DevOps
     link: https://github.com/Tigercrl
     icon: fa-brands fa-github
 
   - name: Mavis
     avatar: https://q.qlogo.cn/headimg_dl?dst_uin=1530624156&spec=640&img_type=jpg
-    role: Java 全栈 DevOps
+    role: Java 全栈 / DevOps
     link: https://github.com/1530624156
     icon: fa-brands fa-github
 
-  - name: 饼干
-    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3076823485&spec=640&img_type=jpg
-    role: 创始人
-    link: https://github.com/lgc2333
+  - name: 烟墨
+    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=2315049216&spec=640&img_type=jpg
+    role: DevOps
+    link: https://github.com/ltzXiaoYanMo
     icon: fa-brands fa-github
 
   - name: kitUIN
@@ -73,10 +73,16 @@ members:
     link: https://github.com/kitUIN
     icon: fa-brands fa-github
 
-  - name: 烟墨
-    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=2315049216&spec=640&img_type=jpg
-    role: 副开发 / 运维
-    link: https://github.com/ltzXiaoYanMo
+  - name: Z_Tsin
+    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3372523&spec=640&img_type=jpg
+    role: DevOps / 创始人
+    link: https://github.com/ztsinsun
+    icon: fa-brands fa-github
+
+  - name: LoveChinaT
+    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3273789867&spec=640&img_type=jpg
+    role: 荣誉开发 / 创始人
+    link: https://gitee.com/ct_zhiyu
     icon: fa-brands fa-github
 
   - name: 括弧
@@ -91,22 +97,16 @@ members:
     link: https://github.com/XiaoHan-Creator
     icon: fa-brands fa-github
 
-  - name: Z_Tsin
-    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3372523&spec=640&img_type=jpg
-    role: 运维 / 创始人
-    link: https://github.com/ztsinsun
+  - name: 饼干
+    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3076823485&spec=640&img_type=jpg
+    role: 创始人
+    link: https://github.com/lgc2333
     icon: fa-brands fa-github
 
   - name: 星姮十织
     avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3192145045&spec=640&img_type=jpg
     role: 创新开发者
     link: https://github.com/hengshizhi
-    icon: fa-brands fa-github
-
-  - name: LoveChinaT
-    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3273789867&spec=640&img_type=jpg
-    role: 荣誉开发 / 创始人
-    link: https://gitee.com/ct_zhiyu
     icon: fa-brands fa-github
 
   - name: 雪球
