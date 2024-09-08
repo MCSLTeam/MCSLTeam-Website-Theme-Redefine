@@ -57,9 +57,15 @@ members:
     link: https://github.com/Tigercrl
     icon: fa-brands fa-github
 
+  - name: Mavis
+    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=1530624156&spec=640&img_type=jpg
+    role: Java 全栈 DevOps
+    link: https://github.com/orgs/MCSLTeam/people/1530624156
+    icon: fa-brands fa-github
+
   - name: 饼干
     avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3076823485&spec=640&img_type=jpg
-    role: 副开发 / 创始人
+    role: 创始人
     link: https://github.com/lgc2333
     icon: fa-brands fa-github
 
