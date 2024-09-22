@@ -27,6 +27,12 @@ product:
     icon: https://images.mcsl.com.cn/new/MCSL-Sync.png
     description: 一个全面的 MC 服务器核心镜像站，提供超过 30 种服务器核心下载
     image: https://images.mcsl.com.cn/new/mcsl-sync-preview.png
+
+  - name: 传奇笑料榜
+    link: https://lz.mcsl.com.cn/
+    icon: https://images.mcsl.com.cn/laughing.png
+    description: 记录遇到的大大小小笑料，享受美好生活！
+    image: https://images.mcsl.com.cn/new/lz-board.png
 # PRODUCT INFOMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 # MEMBERS INFOMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
@@ -343,6 +349,7 @@ navbar:
         MCSL2: https://v2.mcsl.com.cn/
         MCServerLauncher Future: https://future.mcsl.com.cn/
         MCSL-Sync: https://sync.mcsl.com.cn/
+        传奇乐子榜: https://lz.mcsl.com.cn/
     # Archives:
     #   path: /archives
     #   icon: fa-regular fa-archive # can be empty
