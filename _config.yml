@@ -219,7 +219,7 @@ global:
   # Website counter
   website_counter:
     url: https://cn.vercount.one/js # counter API URL (no need to change)
-    enable: true # enable website counter or not
+    enable: false # enable website counter or not
     site_pv: true # site page view
     site_uv: true # site unique visitor
     post_pv: true # post page view
