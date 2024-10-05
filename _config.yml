@@ -30,7 +30,7 @@ product:
 
   - name: 传奇笑料榜
     link: https://lz.mcsl.com.cn/
-    icon: https://images.mcsl.com.cn/laughing.webp
+    icon: https://images.mcsl.com.cn/new/laughing.webp
     description: 记录遇到的大大小小笑料，享受美好生活！
     image: https://images.mcsl.com.cn/new/lz-board.webp
 # PRODUCT INFOMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -171,11 +171,11 @@ info:
 # Docs: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
   # Favicon
-  favicon: https://images.mcsl.com.cn/new/MCServerLauncherFuture.webp
+  favicon: https://images.mcsl.com.cn/new/MCSLTeam.webp
   # Site logo
-  logo: https://images.mcsl.com.cn/new/MCServerLauncherFuture.webp
+  logo: https://images.mcsl.com.cn/new/MCSLTeam.webp
   # Site avatar
-  avatar: https://images.mcsl.com.cn/new/MCServerLauncherFuture.webp
+  avatar: https://images.mcsl.com.cn/new/MCSLTeam.webp
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 # COLORS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
