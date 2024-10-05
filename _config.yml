@@ -144,11 +144,11 @@ members:
 # INTRO CONFIGURATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 intro:
   # Favicon
-  favicon: https://images.mcsl.com.cn/new/MCServerLauncherFuture.webp
+  favicon: https://images.mcsl.com.cn/new/MCSLTeam.webp
   # Site logo
-  logo: https://images.mcsl.com.cn/new/MCServerLauncherFuture.webp
+  logo: https://images.mcsl.com.cn/new/MCSLTeam.webp
   # Site avatar
-  avatar: https://images.mcsl.com.cn/new/MCServerLauncherFuture.webp
+  avatar: https://images.mcsl.com.cn/new/MCSLTeam.webp
 
 # INTRO CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
