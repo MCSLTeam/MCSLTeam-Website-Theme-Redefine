@@ -532,7 +532,7 @@ footer:
   # Site statistics
   statistics: false # show site statistics or not (total articles, total words)
   # Footer message
-  customize: 本站由 木韩网络 提供 CDN 加速与防御支持。
+  customize: 本站由 阿里云 提供 CDN 加速与防御支持。
   # ICP record number. See https://beian.miit.gov.cn/
   icp:
     enable: true # Whether to enable
