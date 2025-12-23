@@ -39,104 +39,176 @@ product:
 members:
   - name: 落雪无痕LxHTT
     avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=3395314362&spec=4
-    role: 全栈 DevOps / 创始人
+    role: 研发兼运维 / 创始人
     link: https://github.com/LxHTT
     icon: fa-brands fa-github
 
   - name: 爱喝矿泉水
     avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=2247176795&spec=4
-    role: 副开发 / 创始人
+    role: 研发工程师 / 创始人
     link: https://github.com/AresConnor
-    icon: fa-brands fa-github
-
-  - name: shenjack
-    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=3695888&spec=4
-    role: 副开发
-    link: https://github.com/shenjackyuanjie
-    icon: fa-brands fa-github
-
-  - name: Tiger
-    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=1577438625&spec=4
-    role: 全栈 / DevOps
-    link: https://github.com/Tigercrl
-    icon: fa-brands fa-github
-
-  - name: Mavis
-    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=1530624156&spec=4
-    role: Java 全栈 / DevOps
-    link: https://github.com/1530624156
-    icon: fa-brands fa-github
-
-  - name: 烟墨
-    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=2315049216&spec=4
-    role: DevOps
-    link: https://github.com/ltzXiaoYanMo
-    icon: fa-brands fa-github
-
-  - name: kitUIN
-    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=1585447424&spec=4
-    role: 创新建设者 / 副开发
-    link: https://github.com/kitUIN
     icon: fa-brands fa-github
 
   - name: Z_Tsin
     avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=3372523&spec=4
-    role: DevOps / 创始人
+    role: 运维工程师 / 创始人
     link: https://github.com/ztsinsun
     icon: fa-brands fa-github
 
   - name: LoveChinaT
     avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=3273789867&spec=4
-    role: 荣誉开发 / 创始人
+    role: 研发工程师 / 创始人
     link: https://gitee.com/ct_zhiyu
-    icon: fa-brands fa-github
-
-  - name: 括弧
-    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=183713750&spec=4
-    role: 前端开发者 / 运维
-    link: https://github.com/daizihan233
-    icon: fa-brands fa-github
-
-  - name: 小涵
-    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=2104687126&spec=4
-    role: Python 开发者
-    link: https://github.com/XiaoHan-Creator
     icon: fa-brands fa-github
 
   - name: 饼干
     avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=3076823485&spec=4
-    role: 创始人
+    role: 研发工程师 / 创始人
     link: https://github.com/lgc2333
+    icon: fa-brands fa-github
+
+  - name: 锅盖
+    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=2509043002&spec=4
+    role: 开发工程师 / 创始人
+    link: https://github.com/wyx55520
+    icon: fa-brands fa-github
+
+  - name: shenjack
+    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=3695888&spec=4
+    role: 研发工程师
+    link: https://github.com/shenjackyuanjie
+    icon: fa-brands fa-github
+
+  - name: Tiger
+    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=1577438625&spec=4
+    role: 研发工程师
+    link: https://github.com/Tigercrl
+    icon: fa-brands fa-github
+
+  - name: Mavis
+    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=1530624156&spec=4
+    role: 研发兼运维
+    link: https://github.com/1530624156
+    icon: fa-brands fa-github
+
+  - name: 烟墨
+    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=2315049216&spec=4
+    role: 开发兼运维
+    link: https://github.com/ltzXiaoYanMo
+    icon: fa-brands fa-github
+
+  - name: 本樱羽衫
+    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=2151340746&spec=4
+    role: 国际化专员
+    link: https://github.com/lcix1145
+    icon: fa-brands fa-github
+
+  - name: kitUIN
+    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=1585447424&spec=4
+    role: 创新建设者
+    link: https://github.com/kitUIN
     icon: fa-brands fa-github
 
   - name: 星姮十织
     avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=3192145045&spec=4
-    role: 创新开发者
+    role: 研发工程师
     link: https://github.com/hengshizhi
     icon: fa-brands fa-github
 
   - name: 雪球
     avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=2957202260&spec=4
-    role: 创新建设者
+    role: 研发工程师
     link: https://github.com/SnowballXueQiu
-    icon: fa-brands fa-github
-
-  - name: 锅盖
-    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=2509043002&spec=4
-    role: 荣誉开发 / 创始人
-    link: https://github.com/wyx55520
     icon: fa-brands fa-github
 
   - name: XieXiLin
     avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=3068342155&spec=4
-    role: 专治各种格式不规范
+    role: 规范化专员
     link: https://github.com/XieXiLin2
     icon: fa-brands fa-github
 
   - name: Yurnu
     avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=1487084645&spec=4
-    role: 创新建设者 / 开发者
+    role: 创新开发者
     link: https://github.com/StarryCamile
+    icon: fa-brands fa-github
+
+  - name: ZeroWolf
+    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=3174788113&spec=4
+    role: 创新开发者
+    link: https://github.com/ZeroWolf233/
+    icon: fa-brands fa-github
+
+  - name: 阳帆
+    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=3356136957&spec=4
+    role: 创新建设者
+    link: https://github.com/WolfYangFan
+    icon: fa-brands fa-github
+
+  - name: 小涵
+    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=2104687126&spec=4
+    role: 开发工程师
+    link: https://github.com/XiaoHan-Creator
+    icon: fa-brands fa-github
+
+  - name: 括弧
+    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=183713750&spec=4
+    role: 研发兼运维
+    link: https://github.com/daizihan233
+    icon: fa-brands fa-github
+
+  - name: MRSlouzk
+    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=3237231778&spec=4
+    role: 研发工程师
+    link: https://github.com/MRSlouzk
+    icon: fa-brands fa-github
+
+  - name: 水合
+    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=3038094028&spec=4
+    role: 研发工程师 / 技术顾问
+    link: https://github.com/suisanka
+    icon: fa-brands fa-github
+
+  - name: tianxiu
+    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=794609509&spec=4
+    role: 研发工程师
+    link: https://github.com/tianxiu2b2t
+    icon: fa-brands fa-github
+
+  - name: 孤帆
+    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=2101596336&spec=4
+    role: 开发工程师
+    link: https://github.com/Lonely-Sails/
+    icon: fa-brands fa-github
+
+  - name: 蓝冰
+    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=3235325661&spec=4
+    role: 研发工程师
+    link: https://github.com/IcyBlue17
+    icon: fa-brands fa-github
+
+  - name: chenziqian0625
+    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=2675575791&spec=4
+    role: 创新建设者
+    link: https://github.com/chenziqian0625
+    icon: fa-brands fa-github
+
+  - name: zackzheng1121
+    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=1970335596&spec=4
+    role: 国际化专员
+    link: https://github.com/zackzheng1121
+    icon: fa-brands fa-github
+
+  - name: Xuanweijiang
+    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=3441123477&spec=4
+    role: 国际化专员
+    link: '#'
+    icon: fa-brands fa-github
+
+  - name: qyf
+    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=3561786358&spec=4
+    role: 开发工程师
+    link: https://github.com/QYF-RYCBStudio
     icon: fa-brands fa-github
 
 # MEMBERS INFOMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
