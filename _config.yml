@@ -536,7 +536,7 @@ footer:
   # ICP record number. See https://beian.miit.gov.cn/
   icp:
     enable: true # Whether to enable
-    number: 鲁ICP备2023001164号-2 # ICP record number
+    number: 粤ICP备2025436238号-2 # ICP record number
     url: https://beian.miit.gov.cn/ # ICP record url
 # FOOTER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
